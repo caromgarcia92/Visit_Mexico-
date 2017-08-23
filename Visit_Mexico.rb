@@ -36,7 +36,7 @@ while option ! = "q"
       p "#{name} would you like to scuba dive with the blue whales? y/n"
       choice = gets.chomp
       if choice == "y"
-        p "Ask for Juan at ScubaConJuan"
+        p "Ask for DWAYNE at ScubaConJuan"
         option = options(name)
       else  choice == "n"
         p "#{name} go to Senor Frogs and get yourself some taquitos and margz!"
